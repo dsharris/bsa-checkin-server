@@ -13,7 +13,7 @@
         update: function () {
             $.ajax({
                 type: 'GET',
-                url: 'http://127.0.0.1:3131/checkin/list',
+                url: 'http://bsa.dsharris.org/checkin/list',
                 dataType: 'JSON',
 
                 complete: function (response) {
